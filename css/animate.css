@@ -1,0 +1,110 @@
+#animate{
+    animation-name: transit;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#move{
+    animation-name: deer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transit{
+    0%{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/archbeauty.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    25% {
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/sunhay.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+
+    50%{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bench.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    75%{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/train.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    100%{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/archbeauty.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+}
+
+@keyframes deer{
+
+    0%{
+        left: 0px;
+        opacity: 1;
+    }
+
+    50%{
+        left: 8%;
+        opacity: 0.7;
+    }
+
+    100%{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes nature{
+    0%{
+        color: green;
+    }
+    
+    50%{
+        color: greenyellow;
+    }
+
+    100%{
+        color: green;
+    }
+}
+
+@keyframes transit1{
+    0%{
+        background-color: yellow;
+    }
+
+    50%{
+        background-color:red;
+    }
+
+    100%{
+        background-color: yellow;
+    }
+    
+}
+
+@keyframes transit2{
+    0%{
+        color: black;
+    }
+
+    50%{
+        color:white;
+    }
+
+    100%{
+        color:black;
+    }
+}

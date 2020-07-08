@@ -1,1 +1,1 @@
-# portfolia based on nature beauty
+just a frontend basic template for nature website.
